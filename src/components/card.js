@@ -9,7 +9,7 @@ const Card = (props) => {
   };
   return (
     <div className="normal-card" onClick={showDetails}>
-      <img src={props.image} />
+      <img src={props.image} alt="item" />
       <h5>{props.name}</h5>
       {props.children}
     </div>
