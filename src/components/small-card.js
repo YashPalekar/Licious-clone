@@ -10,7 +10,7 @@ const SmallCard = (props) => {
   };
   return (
     <div className="small-card" onClick={showDetails}>
-      <img src={image} alt="item-image" />
+      <img src={image} alt="item" />
       <div>
         <p>{name}</p>
         <p>₹{price}</p>
