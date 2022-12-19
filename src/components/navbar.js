@@ -10,9 +10,7 @@ const Navbar = () => {
   const handleSearch = () => {
     setTimeout(() => navigate("/search"), 3000);
   };
-  const toCart = () => {
-    navigate("/cart");
-  };
+
 
   return (
     <nav className="navbar navbar-wrapper">
